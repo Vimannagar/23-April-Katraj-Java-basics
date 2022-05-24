@@ -43,6 +43,13 @@ public class NonPrimitiveDataType {
 		
 		System.out.println("The sum of "+i+" and "+j+" is :"+k);//The sum of 56 and 50 is :106
 		
+//		Assignment:
+		
+//		with the use of integer we have to write a program for 
+//		> Addition  +
+//		> Substraction -
+//		> multiplication *
+//		> division /
 		
 
 	}
