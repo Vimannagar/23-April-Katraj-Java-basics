@@ -22,6 +22,9 @@ public class StaticMethods {
 public static void main(String[] args) {
 	printHello();
 	addition();
+	StaticMethods var = new StaticMethods();
+	var.printHello();
+	
 }
 
 public static void addition()

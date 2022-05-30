@@ -53,11 +53,12 @@ public class Test {
 		StaticMethods.printHello();
 	
 		Test.substraction();
-		
-		
-		
-		
-		
+			
+	}
+	
+	public void testCase1()
+	{
+		System.out.println("test case 1 method");
 	}
 	
 }
