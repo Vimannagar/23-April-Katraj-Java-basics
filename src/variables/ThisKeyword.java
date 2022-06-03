@@ -7,6 +7,8 @@ public class ThisKeyword {
 	
 	int j = 90;
 	
+	String name = "Ron";
+	
 	public static void main(String[] args) {
 		int i = 50;
 		
@@ -16,6 +18,12 @@ public class ThisKeyword {
 		
 		System.out.println(tk.i);//10
 		
+		
+		tk.m1();
+		
+		
+		
+		
 	
 		
 	}
@@ -23,6 +31,14 @@ public class ThisKeyword {
 	public void m1()
 	{
 		int j = 40;
+		
+		String name = "Ricardo";
+		
+		System.out.println("Without updation the name is "+name);
+		
+		this.name =  name;
+		
+		System.out.println("The updated name is: "+this.name);
 		
 		String s = "jkl";
 		System.out.println(j);//40
