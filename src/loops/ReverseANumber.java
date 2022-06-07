@@ -4,7 +4,9 @@ public class ReverseANumber {
 	
 	
 	public static void main(String[] args) {
-		int i = 87564865;
+		int number = 12121;
+		int i = 12121;
+		
 		int reverse = 0;
 		while(i!=0)
 		{
@@ -23,7 +25,14 @@ public class ReverseANumber {
 		System.out.println(reverse);
 		
 		
-		
+		if(reverse == number)
+		{
+			System.out.println("number is palindrome");
+		}
+		else
+		{
+			System.out.println("Number is not a palindrome");
+		}
 		
 		
 		
