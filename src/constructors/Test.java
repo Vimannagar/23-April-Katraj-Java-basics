@@ -12,6 +12,7 @@ public class Test {
 	
 	public  Test(String s)
 	{
+		this("ghi", 50);
 		System.out.println(s);
 		System.out.println("one arg Constructor is executing");
 	}
@@ -20,6 +21,7 @@ public class Test {
 	
 	public Test(String s, int i)
 	{
+		
 		System.out.println("2 argument constructor");
 	}
 	
