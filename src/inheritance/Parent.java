@@ -2,6 +2,8 @@ package inheritance;
 
 public class Parent extends GrandParent  {
 	
+	int i = 50;
+	
 	public void home()
 	{
 		System.out.println("Home method from parent class");
@@ -10,6 +12,7 @@ public class Parent extends GrandParent  {
 	public void car()
 	{
 		System.out.println("Car method from parent class");
+		System.out.println(super.i);// it will call the grand parent class variable
 	}
 	
 	public void property()
@@ -34,6 +37,8 @@ public class Parent extends GrandParent  {
 		p.car();
 		
 		p.farm();// accessing the farm method from Grand parent class
+		
+		System.out.println(p.i);
 	}
 	
 

@@ -1,6 +1,7 @@
 package inheritance;
 
 public class GrandParent {
+	int i = 100;
 	
 	public void farm()
 	{
