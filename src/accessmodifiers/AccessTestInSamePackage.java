@@ -27,6 +27,15 @@ public class AccessTestInSamePackage {
 //		e.m3();	- m3 method from E class is private hence it will only be accessible inside the same class but not outside the class
 		
 		
+		
+//		Accessing protected m1 method from A1 class
+		A1 a1 = new A1();
+		
+		a1.m1();
+		
+		
+		System.out.println(a.i);
+		
 	}
 
 }

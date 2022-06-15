@@ -1,6 +1,7 @@
 package test;
 
 import accessmodifiers.A;
+import accessmodifiers.A1;
 import accessmodifiers.E;
 
 
@@ -29,9 +30,14 @@ public class AccessTestOutsidePackage {
 		
 		e.m1();
 		
-		e.m2();
+//		e.m2();
 		
+//		Accessing protected m1 method from A1 class
+		A1 a1 = new A1();
 		
+//		a1.m1();-- Outside the package we cannot access the protected method directly if we  want to access then we have to call it inside the child class using child reference variable.
+		
+		System.out.println(a.i);
 		
 	}
 
