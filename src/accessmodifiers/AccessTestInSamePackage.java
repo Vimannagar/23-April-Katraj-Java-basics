@@ -36,6 +36,14 @@ public class AccessTestInSamePackage {
 		
 		System.out.println(a.i);
 		
+		System.out.println(A.s);
+		
+//		System.out.println(a.c); since c is private hence we cannot access it outside the class
+		
+		
+		System.out.println(a1.d);
+		
+		System.out.println(A1.i);
 	}
 
 }

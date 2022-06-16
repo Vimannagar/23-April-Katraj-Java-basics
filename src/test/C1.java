@@ -11,6 +11,9 @@ public class C1 extends B1{
 		C1 c1= new C1();
 		
 		c1.m1();
+		
+		
+		System.out.println(c1.d);
 	}
 
 }

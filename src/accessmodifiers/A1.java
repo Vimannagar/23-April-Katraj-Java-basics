@@ -2,6 +2,9 @@ package accessmodifiers;
 
 public class A1 {
 
+	protected  double d = 45;
+	
+	protected static int i = 10;
 	
 	protected void m1()
 	{

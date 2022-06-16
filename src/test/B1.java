@@ -15,6 +15,10 @@ public class B1 extends A1 {
 		
 		b1.m1();
 		
+		System.out.println(b1.d);
+		
+		System.out.println(i);
+		
 	}
 	
 	

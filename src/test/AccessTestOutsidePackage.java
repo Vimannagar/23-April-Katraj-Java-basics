@@ -39,6 +39,13 @@ public class AccessTestOutsidePackage {
 		
 		System.out.println(a.i);
 		
+//		System.out.println(A.s);--since s is default hence we cannot access it outside the package
+		
+//		System.out.println(a1.d); outside the package protected can only be accessible inside the child class using child reference variable only.
+	
+		
+		
+	
 	}
 
 }
