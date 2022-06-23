@@ -4,6 +4,8 @@ public class Child extends Parent {
 int i = 50;
 	
 static int y = 90;
+
+
 	public void bike()
 	{
 		System.out.println("Bike method from Child class");
@@ -77,5 +79,6 @@ public void marry()
 		System.out.println(pp.y);// parent class static variable--> 80
 	
 		
+	
 	}
 }

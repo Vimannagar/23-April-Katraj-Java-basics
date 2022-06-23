@@ -35,8 +35,17 @@ public abstract class Test {
 	
 	abstract void m6();
 	
-	
+	public  static void m7()
+	{
+		System.out.println("m7 static method");
+	}
 
+	
+	public static void main(String[] args) {
+		
+		m7();
+		
+	}
 	
 	
 	
