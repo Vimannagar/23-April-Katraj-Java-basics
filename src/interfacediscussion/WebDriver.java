@@ -9,6 +9,6 @@ public interface WebDriver {
 	
 	 void refresh();
 	
-	 void back();
+	 void back(); 
 
 }

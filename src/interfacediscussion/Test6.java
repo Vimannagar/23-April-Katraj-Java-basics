@@ -1,6 +1,7 @@
 package interfacediscussion;
 
-public class Test6 implements Interface2{
+public class Test6 extends Test5 implements Interface2, Interface3
+{
 
 	@Override
 	public void m1() {

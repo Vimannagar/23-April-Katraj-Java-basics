@@ -22,4 +22,10 @@ public class Test implements Interface1 {
 		
 	}
 
+	@Override
+	public void commonMethod() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
