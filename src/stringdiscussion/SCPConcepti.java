@@ -25,6 +25,41 @@ public class SCPConcepti {
 		
 		String s2 = "jkl";
 		
+		
+		
+		boolean ispointingsameobject = s1==s2;
+		
+		System.out.println(ispointingsameobject);//true
+		
+		
+		boolean ispointsame = ss1==s;
+		
+		System.out.println(ispointsame);//false
+		
+		
+		
+		// equals()
+		
+		boolean iscontentequal = s1.equals(s2);
+		
+		System.out.println(iscontentequal);
+		
+		
+		boolean isequal = ss1.equals(s);
+		
+		System.out.println(isequal);//true
+		
+		boolean ispointsame2 = ss1==ss2;
+		
+		System.out.println(ispointsame2);//false
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
