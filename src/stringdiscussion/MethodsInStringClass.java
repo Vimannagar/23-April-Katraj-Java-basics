@@ -119,7 +119,55 @@ public class MethodsInStringClass {
 		
 //		WAP to replace the space inside a string- "This is a String"
 		
+//		trim()
 		
+		String s27 = "     string value      ";
+		
+		String s28 = s27.trim();
+		
+		System.out.println(s28);//string value
+		
+// WAP to remove the unnecessary space in between of the String - "This     is a    String"		
+		
+// indexOf(char ch)
+		
+		String s29 = "Ahmedabad";
+		
+		int s30 = s29.indexOf('a');
+		
+		System.out.println(s30);//5
+		
+//		lastIndexOf(char ch)
+		
+		String s31 = "Ahmedabada";
+		
+		int s32 = s31.lastIndexOf('a');
+		
+		System.out.println(s32);//9
+		
+		
+//		contains(String s)
+		
+		String s33 = "Bengaluru";
+		
+		boolean s34 = s33.contains("gal");
+		
+		System.out.println(s34);//true
+		
+		
+//		startsWith()
+		
+		String s35 = "Rameshrwaram";
+		
+		boolean s36 = s35.startsWith("esh");
+		
+		System.out.println(s36);//false
+		
+//		endsWith(String s)
+		
+		boolean s37 = s35.endsWith("ram");
+		
+		System.out.println(s37);//true
 		
 	}
 
