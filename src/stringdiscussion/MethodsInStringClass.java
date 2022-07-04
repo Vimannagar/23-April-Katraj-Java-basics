@@ -169,6 +169,54 @@ public class MethodsInStringClass {
 		
 		System.out.println(s37);//true
 		
+		
+//		split(String s)
+		
+		String s38 = "I lives in Pune";
+		
+		
+	String[] s39 = s38.split(" ");
+	
+	for(String s40:s39)
+	{
+		System.out.println(s40);
+	}
+		
+		
+//	WAP to reverse a String - "This is my country"--> Country my is This
+		
+//	toCharArray():
+	
+	String s41 = "Velocity";
+	
+	
+	char[] s42 = s41.toCharArray();
+	
+	for(char c :s42)
+	{
+		System.out.println(c);
+	}
+	
+	
+//	Conversion of primitive data type to the String data type (Non Primitive)
+	
+	int i1 = 56;
+	
+	String s43 = String.valueOf(i1);
+	
+	System.out.println(s43+5);//565
+	
+	boolean b = false;
+	
+	String s44 = String.valueOf(b);
+	
+	System.out.println(s44);//false
+	
+	
+//	Conversion of non primitive(String) to Primitive data type
+	
+	
+		
 	}
 
 }
