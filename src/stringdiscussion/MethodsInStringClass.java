@@ -215,6 +215,98 @@ public class MethodsInStringClass {
 	
 //	Conversion of non primitive(String) to Primitive data type
 	
+String s45 = "10"; 
+
+int s46 = Integer.parseInt(s45);
+
+System.out.println(s46+2);//12
+
+
+String s47 = "56.23";
+
+double s48  = Double.parseDouble(s47);
+
+System.out.println(s48);
+
+String s49 = "1a0";
+
+//int s50 = Integer.parseInt(s49);// NumberFormatException
+
+//System.out.println(s50);
+
+
+//isDigit(char ch)
+
+char s51 = '0';
+
+
+boolean s52 = Character.isDigit(s51);
+
+System.out.println(s52);//false
+
+
+//isalphabetic(char ch)
+
+char s53 = 'a';
+
+boolean isalpha = Character.isAlphabetic(s53);
+
+System.out.println(isalpha);//true
+
+
+//WAP to remove the digits from the String- "abc34sdfkn3432n4"
+
+
+
+
+
+//Regular expression:
+
+
+String s54 = "Houston";
+
+String s55 = s54.replaceAll("[A-Z]", "o");
+
+System.out.println(s55);//oouston
+
+
+String s56 = "Spring";
+
+
+String s57 = s56.replaceAll("[^A-Z]", "p");
+
+System.out.println(s57);//Sppppp
+
+
+
+String s58 = s56.replaceAll("[a-z]", "!");
+
+System.out.println(s58);//S!!!!!
+
+
+String s59 = s56.replaceAll("[A-Za-h]", "#");
+
+System.out.println(s59);//#prin#
+
+
+String s60 = "Acc343en%t64ure";
+
+
+String s61 = s60.replaceAll("[^A-Za-z]", "");
+
+
+System.out.println(s61);//Accenture
+
+
+String s62 = s60.replaceAll("[A-Za-z0-9]", "");
+
+System.out.println(s62);//%
+
+
+
+
+
+	
 	
 		
 	}
