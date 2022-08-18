@@ -6,7 +6,7 @@ import java.util.TreeSet;
 public class TreeSetDisc {
 	
 	public static void main(String[] args) {
-TreeSet<String> city1 = new TreeSet<String>();
+TreeSet<String> city1 = new TreeSet<String>(new MyComp());
 		
 		city1.add("Patna");
 		city1.add("Agra");
@@ -18,6 +18,19 @@ TreeSet<String> city1 = new TreeSet<String>();
 		
 		System.out.println(city1);//[Agra, Bengaluru, Delhi, Mumbai, Patna]
 
+		TreeSet<Integer> number = new TreeSet<Integer>();
+		
+		number.add(56);
+		number.add(52);
+		number.add(93);
+		number.add(58);
+		number.add(2);
+		number.add(0);
+		
+		System.out.println(number);
+	
+		
+		
 	}
 
 }

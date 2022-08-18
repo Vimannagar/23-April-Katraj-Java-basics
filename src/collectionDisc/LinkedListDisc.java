@@ -16,6 +16,10 @@ public class LinkedListDisc {
 		ll.add(40);
 		ll.add(2);
 		ll.add(96);
+		ll.add(null);
+		
+		ll.add(null);
+		ll.add(null);
 		
 		System.out.println(ll);
 		
@@ -28,9 +32,7 @@ public class LinkedListDisc {
 		
 		System.out.println(initial);
 		LinkedList<Integer> l2  = new LinkedList<Integer>();
-		
-		
-		
+			
 		
 	}
 	

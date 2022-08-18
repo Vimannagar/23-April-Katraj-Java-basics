@@ -18,6 +18,9 @@ public class HashSetDisc {
 		hs.add('d');
 		hs.add('b');
 		hs.add('z');
+		hs.add(null);
+		hs.add(null);
+		hs.add(null);
 		
 		System.out.println(hs);//[a, b, t, d, z]
 		
