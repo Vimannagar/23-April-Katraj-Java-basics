@@ -35,5 +35,7 @@ public class HashMapDisc {
 		System.out.println(hm1);
 		
 	}
+	
+	
 
 }

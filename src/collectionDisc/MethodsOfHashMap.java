@@ -2,6 +2,7 @@ package collectionDisc;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Map.Entry;
 import java.util.Set;
 
 public class MethodsOfHashMap {
@@ -53,6 +54,24 @@ HashMap<Integer, String> hm = new HashMap<Integer, String>();
 	System.out.println(value);
 
 //	WAP to count the duplicate characters inside the String - "communitee"
+	
+	Set<Entry<Integer, String>> kv = hm.entrySet();
+	
+	for(Entry<Integer, String> keyvalue:kv)
+		
+	{
+		Integer key = keyvalue.getKey();
+		System.out.println(key);
+		
+		String valu = keyvalue.getValue();
+		System.out.println(valu);
+	}
+	
+	
+	
+//	WAP to count the pattern is comming inside the String
+	
+	String s = "abcahfkahfksabckjfdsfhsdjabcjdshfk";
 	
 	
 	}
