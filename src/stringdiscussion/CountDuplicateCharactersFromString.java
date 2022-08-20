@@ -43,9 +43,7 @@ public class CountDuplicateCharactersFromString {
 			Character key = keyvalue.getKey();
 			Integer valu = keyvalue.getValue();
 			System.out.println("Character "+key+" is repeating "+valu+" times in String");
-			
-			
-			
+					
 		}
 		
 		
